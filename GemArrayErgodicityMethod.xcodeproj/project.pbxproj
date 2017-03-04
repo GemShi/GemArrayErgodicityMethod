@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFD2AC4B1E6B02F200959534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD2AC4A1E6B02F200959534 /* main.m */; };
+		DFD2AC4E1E6B02F200959534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD2AC4D1E6B02F200959534 /* AppDelegate.m */; };
+		DFD2AC511E6B02F200959534 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD2AC501E6B02F200959534 /* ViewController.m */; };
+		DFD2AC541E6B02F200959534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD2AC521E6B02F200959534 /* Main.storyboard */; };
+		DFD2AC561E6B02F200959534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD2AC551E6B02F200959534 /* Assets.xcassets */; };
+		DFD2AC591E6B02F200959534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD2AC571E6B02F200959534 /* LaunchScreen.storyboard */; };
+		DFD2AC641E6B02F200959534 /* GemArrayErgodicityMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD2AC631E6B02F200959534 /* GemArrayErgodicityMethodTests.m */; };
+		DFD2AC6F1E6B02F200959534 /* GemArrayErgodicityMethodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD2AC6E1E6B02F200959534 /* GemArrayErgodicityMethodUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD2AC601E6B02F200959534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD2AC3E1E6B02F200959534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD2AC451E6B02F200959534;
+			remoteInfo = GemArrayErgodicityMethod;
+		};
+		DFD2AC6B1E6B02F200959534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD2AC3E1E6B02F200959534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD2AC451E6B02F200959534;
+			remoteInfo = GemArrayErgodicityMethod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFD2AC461E6B02F200959534 /* GemArrayErgodicityMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemArrayErgodicityMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD2AC4A1E6B02F200959534 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFD2AC4C1E6B02F200959534 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFD2AC4D1E6B02F200959534 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFD2AC4F1E6B02F200959534 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFD2AC501E6B02F200959534 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFD2AC531E6B02F200959534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFD2AC551E6B02F200959534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD2AC581E6B02F200959534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFD2AC5A1E6B02F200959534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD2AC5F1E6B02F200959534 /* GemArrayErgodicityMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemArrayErgodicityMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD2AC631E6B02F200959534 /* GemArrayErgodicityMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemArrayErgodicityMethodTests.m; sourceTree = "<group>"; };
+		DFD2AC651E6B02F200959534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD2AC6A1E6B02F200959534 /* GemArrayErgodicityMethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemArrayErgodicityMethodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD2AC6E1E6B02F200959534 /* GemArrayErgodicityMethodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemArrayErgodicityMethodUITests.m; sourceTree = "<group>"; };
+		DFD2AC701E6B02F200959534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD2AC431E6B02F200959534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2AC5C1E6B02F200959534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2AC671E6B02F200959534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD2AC3D1E6B02F200959534 = {
+			isa = PBXGroup;
+			children = (
+				DFD2AC481E6B02F200959534 /* GemArrayErgodicityMethod */,
+				DFD2AC621E6B02F200959534 /* GemArrayErgodicityMethodTests */,
+				DFD2AC6D1E6B02F200959534 /* GemArrayErgodicityMethodUITests */,
+				DFD2AC471E6B02F200959534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD2AC471E6B02F200959534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2AC461E6B02F200959534 /* GemArrayErgodicityMethod.app */,
+				DFD2AC5F1E6B02F200959534 /* GemArrayErgodicityMethodTests.xctest */,
+				DFD2AC6A1E6B02F200959534 /* GemArrayErgodicityMethodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD2AC481E6B02F200959534 /* GemArrayErgodicityMethod */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2AC4C1E6B02F200959534 /* AppDelegate.h */,
+				DFD2AC4D1E6B02F200959534 /* AppDelegate.m */,
+				DFD2AC4F1E6B02F200959534 /* ViewController.h */,
+				DFD2AC501E6B02F200959534 /* ViewController.m */,
+				DFD2AC521E6B02F200959534 /* Main.storyboard */,
+				DFD2AC551E6B02F200959534 /* Assets.xcassets */,
+				DFD2AC571E6B02F200959534 /* LaunchScreen.storyboard */,
+				DFD2AC5A1E6B02F200959534 /* Info.plist */,
+				DFD2AC491E6B02F200959534 /* Supporting Files */,
+			);
+			path = GemArrayErgodicityMethod;
+			sourceTree = "<group>";
+		};
+		DFD2AC491E6B02F200959534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2AC4A1E6B02F200959534 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFD2AC621E6B02F200959534 /* GemArrayErgodicityMethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2AC631E6B02F200959534 /* GemArrayErgodicityMethodTests.m */,
+				DFD2AC651E6B02F200959534 /* Info.plist */,
+			);
+			path = GemArrayErgodicityMethodTests;
+			sourceTree = "<group>";
+		};
+		DFD2AC6D1E6B02F200959534 /* GemArrayErgodicityMethodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2AC6E1E6B02F200959534 /* GemArrayErgodicityMethodUITests.m */,
+				DFD2AC701E6B02F200959534 /* Info.plist */,
+			);
+			path = GemArrayErgodicityMethodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD2AC451E6B02F200959534 /* GemArrayErgodicityMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD2AC731E6B02F200959534 /* Build configuration list for PBXNativeTarget "GemArrayErgodicityMethod" */;
+			buildPhases = (
+				DFD2AC421E6B02F200959534 /* Sources */,
+				DFD2AC431E6B02F200959534 /* Frameworks */,
+				DFD2AC441E6B02F200959534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemArrayErgodicityMethod;
+			productName = GemArrayErgodicityMethod;
+			productReference = DFD2AC461E6B02F200959534 /* GemArrayErgodicityMethod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD2AC5E1E6B02F200959534 /* GemArrayErgodicityMethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD2AC761E6B02F200959534 /* Build configuration list for PBXNativeTarget "GemArrayErgodicityMethodTests" */;
+			buildPhases = (
+				DFD2AC5B1E6B02F200959534 /* Sources */,
+				DFD2AC5C1E6B02F200959534 /* Frameworks */,
+				DFD2AC5D1E6B02F200959534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD2AC611E6B02F200959534 /* PBXTargetDependency */,
+			);
+			name = GemArrayErgodicityMethodTests;
+			productName = GemArrayErgodicityMethodTests;
+			productReference = DFD2AC5F1E6B02F200959534 /* GemArrayErgodicityMethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFD2AC691E6B02F200959534 /* GemArrayErgodicityMethodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD2AC791E6B02F200959534 /* Build configuration list for PBXNativeTarget "GemArrayErgodicityMethodUITests" */;
+			buildPhases = (
+				DFD2AC661E6B02F200959534 /* Sources */,
+				DFD2AC671E6B02F200959534 /* Frameworks */,
+				DFD2AC681E6B02F200959534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD2AC6C1E6B02F200959534 /* PBXTargetDependency */,
+			);
+			name = GemArrayErgodicityMethodUITests;
+			productName = GemArrayErgodicityMethodUITests;
+			productReference = DFD2AC6A1E6B02F200959534 /* GemArrayErgodicityMethodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD2AC3E1E6B02F200959534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GemShi;
+				TargetAttributes = {
+					DFD2AC451E6B02F200959534 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DFD2AC5E1E6B02F200959534 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFD2AC451E6B02F200959534;
+					};
+					DFD2AC691E6B02F200959534 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFD2AC451E6B02F200959534;
+					};
+				};
+			};
+			buildConfigurationList = DFD2AC411E6B02F200959534 /* Build configuration list for PBXProject "GemArrayErgodicityMethod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD2AC3D1E6B02F200959534;
+			productRefGroup = DFD2AC471E6B02F200959534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD2AC451E6B02F200959534 /* GemArrayErgodicityMethod */,
+				DFD2AC5E1E6B02F200959534 /* GemArrayErgodicityMethodTests */,
+				DFD2AC691E6B02F200959534 /* GemArrayErgodicityMethodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD2AC441E6B02F200959534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD2AC591E6B02F200959534 /* LaunchScreen.storyboard in Resources */,
+				DFD2AC561E6B02F200959534 /* Assets.xcassets in Resources */,
+				DFD2AC541E6B02F200959534 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2AC5D1E6B02F200959534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2AC681E6B02F200959534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD2AC421E6B02F200959534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD2AC511E6B02F200959534 /* ViewController.m in Sources */,
+				DFD2AC4E1E6B02F200959534 /* AppDelegate.m in Sources */,
+				DFD2AC4B1E6B02F200959534 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2AC5B1E6B02F200959534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD2AC641E6B02F200959534 /* GemArrayErgodicityMethodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2AC661E6B02F200959534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD2AC6F1E6B02F200959534 /* GemArrayErgodicityMethodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD2AC611E6B02F200959534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD2AC451E6B02F200959534 /* GemArrayErgodicityMethod */;
+			targetProxy = DFD2AC601E6B02F200959534 /* PBXContainerItemProxy */;
+		};
+		DFD2AC6C1E6B02F200959534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD2AC451E6B02F200959534 /* GemArrayErgodicityMethod */;
+			targetProxy = DFD2AC6B1E6B02F200959534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFD2AC521E6B02F200959534 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD2AC531E6B02F200959534 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFD2AC571E6B02F200959534 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD2AC581E6B02F200959534 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD2AC711E6B02F200959534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD2AC721E6B02F200959534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD2AC741E6B02F200959534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemArrayErgodicityMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemArrayErgodicityMethod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFD2AC751E6B02F200959534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemArrayErgodicityMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemArrayErgodicityMethod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFD2AC771E6B02F200959534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemArrayErgodicityMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemArrayErgodicityMethodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemArrayErgodicityMethod.app/GemArrayErgodicityMethod";
+			};
+			name = Debug;
+		};
+		DFD2AC781E6B02F200959534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemArrayErgodicityMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemArrayErgodicityMethodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemArrayErgodicityMethod.app/GemArrayErgodicityMethod";
+			};
+			name = Release;
+		};
+		DFD2AC7A1E6B02F200959534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemArrayErgodicityMethodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemArrayErgodicityMethodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemArrayErgodicityMethod;
+			};
+			name = Debug;
+		};
+		DFD2AC7B1E6B02F200959534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemArrayErgodicityMethodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemArrayErgodicityMethodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemArrayErgodicityMethod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD2AC411E6B02F200959534 /* Build configuration list for PBXProject "GemArrayErgodicityMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD2AC711E6B02F200959534 /* Debug */,
+				DFD2AC721E6B02F200959534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD2AC731E6B02F200959534 /* Build configuration list for PBXNativeTarget "GemArrayErgodicityMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD2AC741E6B02F200959534 /* Debug */,
+				DFD2AC751E6B02F200959534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFD2AC761E6B02F200959534 /* Build configuration list for PBXNativeTarget "GemArrayErgodicityMethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD2AC771E6B02F200959534 /* Debug */,
+				DFD2AC781E6B02F200959534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFD2AC791E6B02F200959534 /* Build configuration list for PBXNativeTarget "GemArrayErgodicityMethodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD2AC7A1E6B02F200959534 /* Debug */,
+				DFD2AC7B1E6B02F200959534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD2AC3E1E6B02F200959534 /* Project object */;
+}
